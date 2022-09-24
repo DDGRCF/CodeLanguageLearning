@@ -18,7 +18,7 @@ func main() {
 		}
 	}
 
-	pat2 := "^[A-Za-z0-9@]{6,10}$"
+	pat2 := "^[A-Za-z0-9@]{9,16}$"
 	for _, val := range bufSlice2 {
 		if ok, _ := regexp.MatchString(pat2, val); ok {
 			fmt.Println(val + " Match Found!")
