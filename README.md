@@ -25,7 +25,8 @@ Main Content:
 | initalization_atomic.cc      | 不可拷贝对象只能使用{}初始化 | 无  |
 | unique_ptr_test.cc      | std::unique_ptr std::thread 以及 移动构造函数 | 无  |
 | openmp-add_recyler_test      | openmp编译计时 | 虽然采用了openmp的计时方式，但使用多线程处理时，时间还是增加 |
-
+| 16bytes_aligned.cc     | 内存的16位对齐的好处和使用(ncnn opencv mnn) | 无 |
+| left_right_var.cc     | left right 赋值再解 | 无 |
 
 
 ## Go

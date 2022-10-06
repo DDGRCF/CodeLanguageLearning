@@ -3,6 +3,9 @@
 #include <thread>
 
 
+// 另外如果一个类没有拷贝构造函数，那么
+// 执行了std::move 后就执行拷贝构造函数，而不是移动构造函数
+
 class Investment {
     public:
         virtual void run() {
