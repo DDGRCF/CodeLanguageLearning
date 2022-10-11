@@ -93,6 +93,10 @@ int main() {
     std::cout << "(float *)data" << (float *) data << std::endl;
     fastFree(data);
 
+	size_t align_before = 24;
+	size_t align_after = alignSize(align_before, 16);
+	std::cout << "align_before: " << align_before << std::endl;
+	std::cout << "align_after:" << align_after << std::endl; 
     // void* data = fastMalloc(totalsize);
 
     return 0;

@@ -10,6 +10,7 @@ Main Content:
 * Java
 * JavaScript
 * Html/CSS
+* [CMake](/CMkae)
 
 ## C++
 
@@ -27,6 +28,12 @@ Main Content:
 | openmp-add_recyler_test      | openmp编译计时 | 虽然采用了openmp的计时方式，但使用多线程处理时，时间还是增加 |
 | 16bytes_aligned.cc     | 内存的16位对齐的好处和使用(ncnn opencv mnn) | 无 |
 | left_right_var.cc     | left right 赋值再解 | 无 |
+| shared_unique_ptr_deleter.cc     | shared unique 指针自定义deleter函数 | 无 |
+| virtual_inherit_class.cc     | 虚继承和虚基类的区别和使用 | 无 |
+| non_trivial_about.cc     | 平凡构造函数和非平凡构造函数的探究 | 无 |
+| async_test.cc     | std::async 在没有future.get情况居然是同步的 | 继续探究一下std::async的特性 |
+| partial_sort_and_sort.cc     | std::sort std::partial_sort std::for_each | 无 |
+
 
 
 ## Go
@@ -36,3 +43,9 @@ Main Content:
 | sliceAndMap.go | Go 的slice和map的使用 | 无  |
 | goMatrixPackage | Go的image使用 | 如何使用go中image包来创建一个新的image  |
 
+
+## CMake
+
+| 文件名              | 问题         | 描述 |
+|------------------|------------|----|
+| filename_find_test | set cache等参数详解 以及 get_filename_component 和 message的详细使用 | 无  |
