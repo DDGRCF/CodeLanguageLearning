@@ -33,6 +33,10 @@ Main Content:
 | non_trivial_about.cc     | 平凡构造函数和非平凡构造函数的探究 | 无 |
 | async_test.cc     | std::async 在没有future.get情况居然是同步的 | 继续探究一下std::async的特性 |
 | partial_sort_and_sort.cc     | std::sort std::partial_sort std::for_each | 无 |
+| pp_node_test.cc     | 指针、前置++、后置指针的使用 | 无 |
+| sse_use_in_huge_calculate.cc     | sse指令集的初步使用以及它与常规计算方式的时间对比 | 无 |
+
+
 
 
 
