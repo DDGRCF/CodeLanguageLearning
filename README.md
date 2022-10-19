@@ -1,16 +1,21 @@
 <h1 align="center">
     ✨CodeLanguageLearning✨
 </h1>
+
+
+# Introduction
 Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discuss the learning with me.
 
 Main Content:
 
 * [C/C++](/C%2B%2B)
 * [Go](/Go)
-* Java
+* [Java](/Java)
 * JavaScript
 * Html/CSS
 * [CMake](/CMkae)
+
+# Content
 
 ## C++
 
@@ -37,15 +42,20 @@ Main Content:
 | sse_use_in_huge_calculate.cc     | sse指令集的初步使用以及它与常规计算方式的时间对比 | 无 |
 
 
-
+## Java
+| 文件名                                     | 描述                      | 问题 |
+|-----------------------------------------|-------------------------|----|
+| inputstream_recycle.java             |  inputstream 的 隐式回收  | 无  |
 
 
 ## Go
 | 文件名              | 问题         | 描述 |
 |------------------|------------|----|
-| regexpPackage.go | Go 正则匹配包regexp的使用 | 无  |
-| sliceAndMap.go | Go 的slice和map的使用 | 无  |
-| goMatrixPackage | Go的image使用 | 如何使用go中image包来创建一个新的image  |
+| regexp_package.go | Go 正则匹配包regexp的使用 | 无  |
+| slice_and_map.go | Go 的slice和map的使用 | 无  |
+| go_matrix_package | Go的image使用 | 如何使用go中image包来创建一个新的image  |
+| lambda_struct_item.go | Go中的匿名方法字段继承的使用和方法集的说明 |  |
+
 
 
 ## CMake
@@ -53,3 +63,7 @@ Main Content:
 | 文件名              | 问题         | 描述 |
 |------------------|------------|----|
 | filename_find_test | set cache等参数详解 以及 get_filename_component 和 message的详细使用 | 无  |
+| include_directories | include directories and include target directories | 无  |
+
+# LICENSE
+The project is under [Apache-2.0 license](./LICENSE)
