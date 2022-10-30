@@ -11,13 +11,13 @@ Main Content:
 * [C/C++](/C%2B%2B)
 * [Go](/Go)
 * [Java](/Java)
-* JavaScript
+* [JavaScript/TypeScript](/JavaTypeScript)
 * Html/CSS
 * [CMake](/CMkae)
 
 # Content
 
-## C++
+## C/C++
 
 | 文件名                                     | 描述                      | 问题 |
 |-----------------------------------------|-------------------------|----|
@@ -46,6 +46,11 @@ Main Content:
 | 文件名                                     | 描述                      | 问题 |
 |-----------------------------------------|-------------------------|----|
 | inputstream_recycle.java             |  inputstream 的 隐式回收  | 无  |
+
+## JavaScript/TypeScript
+| 文件名                                     | 描述                      | 问题 |
+|-----------------------------------------|-------------------------|----|
+| class_between_java_type.ts/js            | typescript和javascript的class声明对比  | 无  |
 
 
 ## Go
