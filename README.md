@@ -12,6 +12,8 @@ Main Content:
 * [Go](/Go)
 * [Java](/Java)
 * [JavaScript/TypeScript](/JavaTypeScript)
+* Kotlin
+* Rust
 * Html/CSS
 * [CMake](/CMkae)
 
@@ -40,17 +42,21 @@ Main Content:
 | partial_sort_and_sort.cc     | std::sort std::partial_sort std::for_each | 无 |
 | pp_node_test.cc     | 指针、前置++、后置指针的使用 | 无 |
 | sse_use_in_huge_calculate.cc     | sse指令集的初步使用以及它与常规计算方式的时间对比 | 无 |
+| func_template_partial_speical.cc     | 模板偏特化，不同类型的探究 | 无 |
 
 
 ## Java
 | 文件名                                     | 描述                      | 问题 |
 |-----------------------------------------|-------------------------|----|
 | inputstream_recycle.java             |  inputstream 的 隐式回收  | 无  |
+| anonymous_class.java             |  anonymous_class.java | 无  |
 
 ## JavaScript/TypeScript
 | 文件名                                     | 描述                      | 问题 |
 |-----------------------------------------|-------------------------|----|
 | class_between_java_type.ts/js            | typescript和javascript的class声明对比  | 无  |
+| type_assert.ts/js            | typescript和javascript的class声明对比  | 无  |
+| args_kwargs.ts/js            | typescript和javascript的任意参数函数 | 无 |
 
 
 ## Go
