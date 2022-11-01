@@ -4,14 +4,15 @@
 
 
 # Introduction
-Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discuss the learning with me.
+Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discuss the learning with me😊.
 
-Main Content:
+🔥Main Content🔥:
 
 * [C/C++](/C%2B%2B)
 * [Go](/Go)
 * [Java](/Java)
 * [JavaScript/TypeScript](/JavaTypeScript)
+* [Python](/Python)
 * Kotlin
 * Rust
 * Html/CSS
@@ -57,6 +58,8 @@ Main Content:
 | class_between_java_type.ts/js            | typescript和javascript的class声明对比  | 无  |
 | type_assert.ts/js            | typescript和javascript的class声明对比  | 无  |
 | args_kwargs.ts/js            | typescript和javascript的任意参数函数 | 无 |
+| export_default            | export default的探究 | 无 |
+| unpack_object.ts/js            | 数组和对象同时多赋值的探究 | 无 |
 
 
 ## Go
