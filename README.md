@@ -70,6 +70,10 @@ Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discu
 | go_matrix_package | Go的image使用 | 如何使用go中image包来创建一个新的image  |
 | lambda_struct_item.go | Go中的匿名方法字段继承的使用和方法集的说明 |  |
 
+## Python
+| 文件名              | 问题         | 描述 |
+|------------------|------------|----|
+| property_test.py | property装饰器的使用以及setter的使用 | 无  |
 
 
 ## CMake
