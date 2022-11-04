@@ -60,6 +60,8 @@ Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discu
 | args_kwargs.ts/js            | typescript和javascript的任意参数函数 | 无 |
 | export_default            | export default的探究 | 无 |
 | unpack_object.ts/js            | 数组和对象同时多赋值的探究 | 无 |
+| class_test.ts/js            | typescript class使用,变量函数声明 | 无 |
+| interface_test.ts/js            | typescript interface使用,变量函数声明 | 无 |
 
 
 ## Go
