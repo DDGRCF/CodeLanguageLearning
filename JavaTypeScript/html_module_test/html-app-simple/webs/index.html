@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="importmap">
+    {
+        "imports": {
+        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.js"
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div id="app">
+        <button @click="count++" style="background-color: aquamarine; width: 50px; height: 25px;"></button>
+        <p>{{ count }}</p>
+        <div>
+            <component-2 />
+        </div>
+        <div>
+            <component-1 />
+        </div>
+    </div>
+
+    <template id="child1Comp">
+        <p>子组件说：{{message}}</p>
+    </template>
+
+    <script type="module">
+        import { createApp } from 'vue';
+        import child2  from '/assets/child2.js'; 
+
+        var child1 = {
+            template: '#child1Comp',//必须绑定一个模板
+            data() {
+                return {
+                    message: "我是子组件",
+                }
+            }
+        };
+        var app = createApp({
+            data() {
+                return {
+                    count: 0,
+                }
+            },
+            components: {
+                "component-1": child1,
+                "component-2": child2,
+            },
+        });
+        app.mount("#app");
+    </script>
+</body>
+</html>
