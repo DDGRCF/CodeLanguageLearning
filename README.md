@@ -14,7 +14,7 @@ Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discu
 * [JavaScript/TypeScript](/JavaTypeScript)
 * [Python](/Python)
 * Kotlin
-* Rust
+* [Rust](/Rust)
 * Html/CSS
 * [CMake](/CMkae)
 

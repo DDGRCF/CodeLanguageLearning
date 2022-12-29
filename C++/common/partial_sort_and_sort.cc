@@ -3,6 +3,7 @@
 #include <vector>
 #include <time.h>
 #include <string>
+#include "utils.hpp"
 
 
 using std::vector;
@@ -13,21 +14,26 @@ using std::string;
 int main() {
     srand(time(0));
     vector<int> vec;
-    for (int i = 0; i < 10; i++) {
-        vec.emplace_back(rand() % 10);
-    }
-    auto print_func = [] (int i) {
-        cout << i << endl;
-    };
-    cout << "----------------" << endl;
-    std::for_each(vec.begin(), vec.end(), print_func);
-    cout << "----------------" << endl;
+    size_t len = 10; size_t max = 10;
+
+    cout << "sort--------------------------" << endl;
+    vec = rand_vector(len, max);
+    cout << join(vec, ", ") << endl;
     std::sort(vec.begin(), vec.begin() + 5); // 这个是在局部排序
-    std::for_each(vec.begin(), vec.end(), print_func);
+    cout << join(vec, ", ") << endl;
+
+    cout << "partial_sort--------------------------" << endl;
+    vec = rand_vector(len, max);
+    cout << join(vec, ", ") << endl;
     std::partial_sort(vec.begin(), vec.begin() + 5, vec.end(), std::greater<int>()); // 这个是在全局排局部的序
-    cout << "----------------" << endl;
-    std::for_each(vec.begin(), vec.end(), print_func);
-    cout << "----------------" << endl;
+    cout << join(vec, ", ") << endl;
+
+    cout << "stable_sort--------------------------" << endl;
+    vec = rand_vector(len, max);
+    cout << join(vec, ", ") << endl;
+    std::stable_sort(vec.begin(), vec.end());
+    cout << join(vec, ", ") << endl;
+
 
     return 0;
 }
