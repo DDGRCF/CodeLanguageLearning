@@ -44,6 +44,9 @@ Hello👋👋👋! Here is the coding language learning of DDG. Weclome to discu
 | pp_node_test.cc     | 指针、前置++、后置指针的使用 | 无 |
 | sse_use_in_huge_calculate.cc     | sse指令集的初步使用以及它与常规计算方式的时间对比 | 无 |
 | func_template_partial_speical.cc     | 模板偏特化，不同类型的探究 | 无 |
+| av_learning~yuv2bgr.cc     | 音频基础知识 yuv转bgr | 无 |
+| class_static_const.cc | 类内static、const初始化 | 无 | 
+| byte_align.cc | c++ 结构体内存对齐 | 无 | 
 
 
 ## Java
